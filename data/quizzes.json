@@ -1,0 +1,31 @@
+[
+  {
+    "id": "quiz-pc-01",
+    "title": "Quiz: Algoritmi",
+    "lessonId": "pc-01",
+    "questions": [
+      {
+        "q": "Qual è la definizione più corretta di algoritmo?",
+        "choices": [
+          "Un programma scritto in Java",
+          "Una sequenza di istruzioni per risolvere un problema",
+          "Un disegno tecnico",
+          "Un tipo di robot"
+        ],
+        "answer": 1,
+        "explain": "Un algoritmo è una procedura: può essere descritta anche a parole, non solo con codice."
+      },
+      {
+        "q": "Perché la precisione delle istruzioni è importante?",
+        "choices": [
+          "Perché rende il testo più lungo",
+          "Perché evita ambiguità e errori nell'esecuzione",
+          "Perché fa aumentare il voto automaticamente",
+          "Non è importante"
+        ],
+        "answer": 1,
+        "explain": "Se un passaggio è ambiguo, due persone possono eseguirlo in modi diversi."
+      }
+    ]
+  }
+]

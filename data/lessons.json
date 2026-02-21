@@ -1,0 +1,27 @@
+[
+  {
+    "id": "pc-01",
+    "course": "Pensiero Computazionale",
+    "title": "Algoritmi: istruzioni passo-passo",
+    "level": "Secondaria I grado",
+    "tags": [
+      "algoritmi",
+      "problem solving"
+    ],
+    "minutes": 12,
+    "body": "Un **algoritmo** è una sequenza di istruzioni per raggiungere un obiettivo.\n\n**Esempio pratico (classe):** scrivi l'algoritmo per \"preparare lo zaino\".\n- Prendi lo zaino\n- Controlla l'orario\n- Inserisci libri e quaderni del giorno\n- Aggiungi astuccio e diario\n- Chiudi lo zaino\n\n**Sfida:** trova un passaggio ambiguo e rendilo più preciso. Perché è importante?"
+  },
+  {
+    "id": "ai-01",
+    "course": "AI Literacy",
+    "title": "Cos’è un dataset e perché conta",
+    "level": "Secondaria II grado",
+    "tags": [
+      "dati",
+      "IA",
+      "bias"
+    ],
+    "minutes": 15,
+    "body": "Un **dataset** è un insieme di dati usati per **addestrare** o **valutare** un modello.\n\n**Esempio pratico:** se vuoi insegnare a un modello a riconoscere \"buone\" domande, devi raccogliere esempi di domande *buone* e *non buone*, etichettarle e bilanciarle.\n\n**Domanda critica:** chi decide cosa è \"buono\"? Che effetti ha sulle persone?"
+  }
+]

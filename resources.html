@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EduSite — Risorse</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__logo" aria-hidden="true">🎓</span>
+        <span class="brand__name">EduSite</span>
+      </div>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="./index.html" class="nav__link">Home</a>
+        <a href="./lessons.html" class="nav__link">Lezioni</a>
+        <a href="./quiz.html" class="nav__link">Quiz</a>
+        <a href="./resources.html" class="nav__link is-active">Risorse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container stack">
+    <header class="pagehead">
+      <h1>Risorse</h1>
+      <p class="muted">Link utili per approfondire (aggiornabili in questa pagina).</p>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>AI & Scuola</h2>
+        <ul>
+          <li><a href="https://www.unesco.org/en/artificial-intelligence/recommendation-ethics" target="_blank" rel="noreferrer">UNESCO — Raccomandazione sull’etica dell’IA</a></li>
+          <li><a href="https://digcomp.org.pl/en/digcomp/" target="_blank" rel="noreferrer">DigComp (overview)</a></li>
+          <li><a href="https://ai4k12.org/" target="_blank" rel="noreferrer">AI4K12 — Linee guida per l’AI literacy</a></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>STEM & Simulazioni</h2>
+        <ul>
+          <li><a href="https://phet.colorado.edu/" target="_blank" rel="noreferrer">PhET Simulations</a></li>
+          <li><a href="https://www.geogebra.org/" target="_blank" rel="noreferrer">GeoGebra</a></li>
+          <li><a href="https://mathigon.org/" target="_blank" rel="noreferrer">Mathigon</a></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Prototipazione</h2>
+        <ul>
+          <li><a href="https://www.tinkercad.com/" target="_blank" rel="noreferrer">Tinkercad</a></li>
+          <li><a href="https://makecode.microbit.org/" target="_blank" rel="noreferrer">MakeCode micro:bit</a></li>
+          <li><a href="https://scratch.mit.edu/" target="_blank" rel="noreferrer">Scratch</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Compito di realtà (consigliato)</h2>
+      <p>
+        Scegliete un tema (es. “fake news”, “energia”, “cybersecurity”) e costruite una mini-unità:
+        <strong>micro-lezione</strong> → <strong>quiz</strong> → <strong>prodotto</strong> (poster, video, demo).
+      </p>
+      <p class="muted">Suggerimento: fate una rubrica valutativa con criteri chiari (contenuti, fonti, chiarezza, collaborazione).</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> EduSite</span>
+      <span class="muted">Risorse selezionate</span>
+    </div>
+  </footer>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

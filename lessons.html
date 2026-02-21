@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EduSite — Lezioni</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__logo" aria-hidden="true">🎓</span>
+        <span class="brand__name">EduSite</span>
+      </div>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="./index.html" class="nav__link">Home</a>
+        <a href="./lessons.html" class="nav__link is-active">Lezioni</a>
+        <a href="./quiz.html" class="nav__link">Quiz</a>
+        <a href="./resources.html" class="nav__link">Risorse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container stack">
+    <header class="pagehead">
+      <h1>Lezioni</h1>
+      <p class="muted">Cerca per titolo, corso, tag. I contenuti arrivano da <code>/data/lessons.json</code>.</p>
+      <label class="search">
+        <span class="sr-only">Cerca lezioni</span>
+        <input id="lessonSearch" type="search" placeholder="Cerca… (es. dataset, algoritmi)" autocomplete="off" />
+      </label>
+    </header>
+
+    <section id="lessonList" class="grid" aria-live="polite"></section>
+
+    <section id="lessonView" class="card" hidden>
+      <button class="btn btn--ghost" id="backToList">← Torna all’elenco</button>
+      <div id="lessonContent"></div>
+      <div class="card__actions">
+        <a class="btn" id="goQuiz" href="./quiz.html">Vai al quiz collegato</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> EduSite</span>
+      <span class="muted">Lezioni caricabili via JSON</span>
+    </div>
+  </footer>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EduSite — mini piattaforma educativa</title>
+  <meta name="description" content="Sito educativo leggero con lezioni, risorse e quiz. Perfetto per scuola e laboratori." />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__logo" aria-hidden="true">🎓</span>
+        <span class="brand__name">EduSite</span>
+      </div>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <a href="./index.html" class="nav__link is-active">Home</a>
+        <a href="./lessons.html" class="nav__link">Lezioni</a>
+        <a href="./quiz.html" class="nav__link">Quiz</a>
+        <a href="./resources.html" class="nav__link">Risorse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <h1>Un sito educativo pronto da usare (e da modificare)</h1>
+      <p>
+        Qui trovi un esempio minimale: <strong>lezioni</strong> caricate da file JSON, <strong>quiz</strong> interattivi,
+        ricerca veloce e layout pulito. Puoi usarlo per una classe, un progetto PCTO o un laboratorio.
+      </p>
+      <div class="hero__cta">
+        <a class="btn" href="./lessons.html">Vai alle lezioni</a>
+        <a class="btn btn--ghost" href="./quiz.html">Prova un quiz</a>
+      </div>
+      <p class="muted">
+        Suggerimento: apri <code>/data/lessons.json</code> e aggiungi una lezione nuova. Ricarica la pagina: appare subito.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Per docenti</h2>
+        <ul>
+          <li>Struttura a pagine semplici</li>
+          <li>Contenuti in JSON (facili da aggiornare)</li>
+          <li>Quiz con feedback immediato</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Per studenti</h2>
+        <ul>
+          <li>Lezioni brevi e leggibili</li>
+          <li>Ricerca per tag e parole</li>
+          <li>Punteggio quiz e spiegazioni</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Per progetti</h2>
+        <ul>
+          <li>Ok per GitHub Pages (gratis)</li>
+          <li>Funziona offline (anche da USB)</li>
+          <li>Base perfetta per crescere (login, badge, ecc.)</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Idea didattica “tosto-ma-fattibile”</h2>
+      <p>
+        Fate costruire agli studenti un mini-dataset di domande “buone” e “non buone” (con criteri condivisi),
+        poi discutete <strong>bias</strong>, <strong>responsabilità</strong> e <strong>trasparenza</strong>.
+      </p>
+      <p class="muted">Domanda guida: “Chi decide cosa è una ‘buona domanda’ e chi resta fuori?”</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> EduSite</span>
+      <span class="muted">Made for scuola • HTML/CSS/JS</span>
+    </div>
+  </footer>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>
